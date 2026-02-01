@@ -1,4 +1,4 @@
-# Mini Messageboard 📝
+# Mini Messageboard 
 
 A simple messageboard web application built with **Node.js**, **Express**, and **EJS** as part of **The Odin Project** curriculum.
 
@@ -22,7 +22,7 @@ https://messageboard-bt5d.onrender.com/
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - **Node.js**
 - **Express**
