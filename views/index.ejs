@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1><%= title %></h1>
+
+    <a href="/new" class="button">➕ New Message</a>
+    <div class="messages">
+        <% messages.forEach((message, index) => { %>
+        <div class="message">
+            <div class="message-user"><%= message.user %></div>
+            <div><%= message.text %></div>
+            <div class="message-date">
+            <%= message.added.toLocaleString() %>
+            </div>
+            <a href="/message/<%= index %>">Open</a>
+        </div>
+        <% }) %>
+    </div>
+  </div>
+</body>
+</html>
